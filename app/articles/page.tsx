@@ -16,7 +16,7 @@ export default function Articles() {
 
     return (
         <div>
-            {articles.map((article) => (<ArticlePreview  key={Math.random()} props={article.elements} />))}
+            {articles.map((article) => (<ArticlePreview  key={Math.random()} props={article} />))}
         </div>
     )
 }
